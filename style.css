@@ -21,7 +21,7 @@ p {
         /* PIQUE UM CONTAINARE */
         width: 100%;
         height: 100vh;
-        display: block;
+        display: table;
         background-color: #1c1c1c;
         border: 30px solid #000;
     }
@@ -150,6 +150,19 @@ p {
         right: 0;
         background: transparent url(images/corner.svg) no-repeat;
     }
+
+    /*-----------HOME----------- */
+    .jl-display-text{
+        margin-top: 9%;
+    }
+
+    #jl-home-presentation{
+        background-image: url(images/joao-lemon-designer-home.png);
+        background-repeat: no-repeat;
+        background-position: 50% bottom;
+        background-size: 55%;
+    }
+
 }
 
 @media screen and (min-width: 576px) {}
@@ -214,6 +227,10 @@ p {
 .jl-title {
     font-family: 'Abril Fatface', serif;
     font-weight: normal;
+}
+
+.jl-title-big{
+    font-size: 120px;
 }
 
 .jl-text-green {
@@ -288,7 +305,14 @@ p {
     padding-left: 15px;
 }
 
+.full-height {
+    height: 100vh;
+    border-bottom: 5px solid #2ccb69;
+}
 
+.jl-first-section{
+    height: calc(100vh - 30px);
+}
 
 /* CLASSES DE COMPORTAMENTP */
 
